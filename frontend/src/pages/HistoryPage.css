@@ -1,0 +1,29 @@
+.history-header {
+    padding: 20px 24px;
+}
+
+.history-header h2 {
+    margin: 0;
+    font-size: 26px;
+    color: var(--text-primary);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+    margin: 24px;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 24px;
+}
+
+@media (max-width: 768px) {
+    .history-header {
+        padding: 20px;
+    }
+}
